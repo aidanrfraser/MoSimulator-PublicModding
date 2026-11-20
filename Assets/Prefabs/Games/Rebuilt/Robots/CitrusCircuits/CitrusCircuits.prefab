@@ -746,6 +746,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: 9378423fe1c50f0419b9380e03b4ef96, type: 3}
   playbackSpeed: 1
@@ -758,6 +759,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &35287374764242520
@@ -4241,6 +4243,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: 9378423fe1c50f0419b9380e03b4ef96, type: 3}
   playbackSpeed: 1
@@ -4253,6 +4256,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &345451809437497807
@@ -6911,8 +6915,10 @@ MonoBehaviour:
   corner11: {fileID: 0}
   resolutionX: 8
   resolutionY: 8
+  useAuthoredRestShape: 1
   netWidth: 0.54
   netHeight: 0.59
+  restLengthScale: 1
   subSteps: 3
   stretchCompliance: 0.001
   shearCompliance: 0.0002
@@ -9388,6 +9394,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -9400,6 +9407,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &827889010042150805
@@ -10962,6 +10970,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -10974,6 +10983,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &969135881761935648
@@ -12756,6 +12766,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 4
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -12768,6 +12779,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &1118644162341667112
@@ -23770,6 +23782,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -23782,6 +23795,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &1911806875730589996
@@ -24580,6 +24594,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -24592,6 +24607,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &1980782650123102245
@@ -26581,6 +26597,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -26593,6 +26610,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &2127271154629321119
@@ -28038,6 +28056,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 1
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -28050,6 +28069,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!114 &6114265364604191452
@@ -28660,6 +28680,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 0
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: d5c397cc9cf59bb438b6e5a30d88a98d, type: 3}
   playbackSpeed: 1
@@ -28672,6 +28693,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!114 &6829087472797279030
@@ -32211,6 +32233,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: 9378423fe1c50f0419b9380e03b4ef96, type: 3}
   playbackSpeed: 1
@@ -32223,6 +32246,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &2485587079954330745
@@ -32405,6 +32429,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: 9378423fe1c50f0419b9380e03b4ef96, type: 3}
   playbackSpeed: 1
@@ -32417,6 +32442,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &2492427651307935172
@@ -34524,6 +34550,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: 9378423fe1c50f0419b9380e03b4ef96, type: 3}
   playbackSpeed: 1
@@ -34536,6 +34563,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &2747027889079857617
@@ -43924,6 +43952,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: 9378423fe1c50f0419b9380e03b4ef96, type: 3}
   playbackSpeed: 1
@@ -43936,6 +43965,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &3587059340534660057
@@ -46693,6 +46723,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -46705,6 +46736,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &3837594975794085045
@@ -53671,6 +53703,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 1
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -53683,6 +53716,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!114 &1849154901327738724
@@ -62590,6 +62624,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: 9378423fe1c50f0419b9380e03b4ef96, type: 3}
   playbackSpeed: 1
@@ -62602,6 +62637,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &5288502451691609084
@@ -66701,6 +66737,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -66713,6 +66750,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &5586293458934810022
@@ -66843,6 +66881,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 72
   motor: 4
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: f1850d68545f15a4d8149170bc15efe5, type: 3}
   playbackSpeed: 1
@@ -66855,6 +66894,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &5606729094822891894
@@ -71049,6 +71089,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 72
   motor: 4
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: f1850d68545f15a4d8149170bc15efe5, type: 3}
   playbackSpeed: 1
@@ -71061,6 +71102,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &5896233454385607024
@@ -79575,6 +79617,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -79587,6 +79630,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &6522069518417148785
@@ -84326,6 +84370,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 4
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -84338,6 +84383,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &7019510533255191429
@@ -87281,6 +87327,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 1
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -87293,6 +87340,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!114 &7759578920332200557
@@ -90562,10 +90610,6 @@ MonoBehaviour:
     m_ActionName: 'Robot/SwapCamera[/Keyboard/p]'
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: 16a3d8d8-73d7-4123-8b29-a7800f53e576
-    m_ActionName: 'Robot/L4[/Keyboard/r]'
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 67c4581d-fb13-48c8-9afd-49adcedc64ad
     m_ActionName: 'Robot/Stow[/Keyboard/c]'
   - m_PersistentCalls:
@@ -90576,14 +90620,6 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: bee10e9a-92da-4a8e-b845-83402506e590
     m_ActionName: 'Robot/Intake[/Keyboard/shift,/XInputControllerWindows/leftTrigger]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 68c29949-f616-4557-8d64-e8ba3614a005
-    m_ActionName: 'Robot/L3[/XInputControllerWindows/buttonWest,/Keyboard/v]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: aeb6b3ac-dfc4-44bb-8cd8-59b158b33268
-    m_ActionName: 'Robot/L2[/XInputControllerWindows/buttonEast,/Keyboard/c]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 75758fa5-e79e-4435-acda-4a0bf1b16117
@@ -90648,6 +90684,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 2fee38ea-e1a8-4271-8ff8-e56aaf21ca1f
     m_ActionName: 'Robot/RobotSpecial3[/SwitchProControllerHID/buttonEast,/Keyboard/o]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d9669b06-7a73-47c3-a2ed-e4d586c0b5d7
+    m_ActionName: 'Robot/DpadR[/Keyboard/x]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Robot 1
   m_DefaultActionMap: Robot
@@ -90698,6 +90738,7 @@ MonoBehaviour:
   maxAlpha: 1800
   maxAlphaDot: 40000
   rotationApproachTime: 0.2
+  rotationPredictionTime: 0.06
   targetPosition: {x: 3.632, y: 1.839, z: 0}
   aimControl: 1
 --- !u!114 &3628224863603227433
@@ -94385,6 +94426,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   motor: 2
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 8300000, guid: 9378423fe1c50f0419b9380e03b4ef96, type: 3}
   playbackSpeed: 1
@@ -94397,6 +94439,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!1 &7781085974229709483
@@ -95441,6 +95484,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 72
   motor: 1
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -95453,6 +95497,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!114 &92113945775298665
@@ -107910,6 +107955,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 72
   motor: 3
+  ignoreDefaultMaxRpm: 0
   models: []
   rollerSound: {fileID: 0}
   playbackSpeed: 1
@@ -107922,6 +107968,7 @@ MonoBehaviour:
   audioResponseExponent: 0.75
   negativeRangeAudio: 0
   atRangeTollerance: 0.02
+  trajectoryTracer: 0
   realRpm: 0
   TargetRpm: 0
 --- !u!114 &1742378509410022085
