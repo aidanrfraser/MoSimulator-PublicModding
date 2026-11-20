@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1409438a6844eea96767966da7413b, type: 3}
+  m_Name: ORCA
+  m_EditorClassIdentifier: 
+  teamNumber: 3136
+  teamName: O.R.C.A.
+  robotImage: {fileID: 0}
+  mainRobot:
+    displayName: O.R.C.A.
+    robotPrefab: {fileID: 7024342902006470175, guid: 4f6457235c83eff43b2d49080d482411,
+      type: 3}
+    mainMenuPrefab: {fileID: 2455767134451496343, guid: 64f169a87e9eb5c459d1b2e25f01b773,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 729574903442933325, guid: 1cf5482c9a1589c44a3837449079275f,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 1275480888714780721, guid: 1d69e6d225305dc4798388ae74ba429e, type: 3}
+    - {fileID: 6009737891073978485, guid: 89d7c19270c40244598f3d6dfa9a8aa2, type: 3}
+    - {fileID: 1452596714548172675, guid: 9ace78d110ae4124a9ffc46b56b002f2, type: 3}
+  alternateRobots: []
